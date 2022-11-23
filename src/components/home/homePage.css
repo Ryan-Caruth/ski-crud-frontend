@@ -1,0 +1,15 @@
+#season_mode_seperator {
+    height: 5vh;
+    width: 0.5px;;
+      border-width:0;
+      background-color: #000000;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.season-mode {
+    display: flex;
+}
