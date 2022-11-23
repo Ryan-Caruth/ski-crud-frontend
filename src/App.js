@@ -1,8 +1,9 @@
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <div>
-      Soon to be a to do app for sports enthusiasts.
+      <LandingPage />
     </div>
   );
 }
