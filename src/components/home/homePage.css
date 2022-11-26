@@ -7,9 +7,63 @@
 
 h1 {
     margin: auto;
+    width: 100%;
     text-align: center;
 }
 
 .season-mode {
     display: flex;
+}
+
+.mountain-image {
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+}
+
+#text-container {
+    display: inline-block;
+    line-height: 5px;
+    position: absolute;
+    margin-left: 5px;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#title-text-line {
+    margin: 0;
+    width: 100px;
+}
+
+#app-description {
+    position: absolute;
+    margin-left: 3px;
+    width: 200px;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.buttons {
+    position: absolute;
+    margin-left: 3px;
+    width: 100%;
+    top: 265px;
+    text-align: center;
+}
+
+#sign-in-button, #register-button {
+    margin: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    border-style: none;
+    outline: none;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
 }
